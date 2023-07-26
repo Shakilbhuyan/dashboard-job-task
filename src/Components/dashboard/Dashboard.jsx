@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import DashboardNav from './dashboardNav/DashboardNav';
 import Card from './dashboardCard/Card';
 import Table from './dashboardTable/Table';
+import FirstForm from './forms/firstForm/FirstForm';
 
 const Dashboard = () => {
     return (
@@ -14,6 +15,7 @@ const Dashboard = () => {
                 <DashboardNav></DashboardNav>
                 <Card></Card>
                 <Table></Table>
+                <FirstForm></FirstForm>
             </div>
             <div className="drawer-side ">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
