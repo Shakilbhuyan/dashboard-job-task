@@ -4,6 +4,7 @@ import DashboardNav from './dashboardNav/DashboardNav';
 import Card from './dashboardCard/Card';
 import Table from './dashboardTable/Table';
 import FirstForm from './forms/firstForm/FirstForm';
+import SecondForm from './forms/secondForm/SecondForm';
 
 const Dashboard = () => {
     return (
@@ -16,6 +17,7 @@ const Dashboard = () => {
                 <Card></Card>
                 <Table></Table>
                 <FirstForm></FirstForm>
+                <SecondForm></SecondForm>
             </div>
             <div className="drawer-side ">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
